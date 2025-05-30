@@ -15,8 +15,8 @@ class RAGChat:
     # retriever = None
     # chain = None
     def __init__(self,llm_model:str="mistral"):
-        self.model = ChatOllama(model=llm_model, temperature=0.7,  # Control randomness
-                                                    top_p=0.7,       # Control diversity based on probability
+        self.model = ChatOllama(model=llm_model, temperature=0.1,  # Control randomness
+                                                    top_p=0.05,       # Control diversity based on probability
                                                     top_k=50 )
         self.text_splitter = RecursiveCharacterTextSplitter(chunk_size = 1024, chunk_overlap=100)
         # self.user_profile = user_profile

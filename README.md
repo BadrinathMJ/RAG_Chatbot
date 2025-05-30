@@ -4,7 +4,48 @@ It is supporting for Linux, Windows and macOs
 
 2. Install Ollama-[Visit Ollama's website to download and install](https://ollama.com/)
 
-
+# **Project Structure**
+```
+D:\RAG_CHATBOT
+|   .env
+|   0.16.12
+|   0.4.22
+|   1.17.0
+|   README.md
+|   requirements.txt  
+|   tree_output.txt
+|   
++---data
+|       doc1.PDFv   #Court Proceeding document
+|       transformer.pdf  #Research Paper of transformer
+|       
++---notebooks
+|       rag_chatbot_pdf.ipynb  #experiment done don't need to see
+|       
++---screen_shots
+|       setting1_10years.png  #Screen shot of inferenced output from chatbot
+|       setting2_10years.png  #Screen shot of inferenced output from chatbot
+|       setting3_graduate.png #Screen shot of inferenced output from chatbot
+|       setting4_graduate.png #Screen shot of inferenced output from chatbot
+|       
+\---src
+    |   app.py   #Streamlit app which will run in localhost
+    |   chat_pdf.py  #RAGChat code 
+    |   
+    +---chromadb
+    |   |   chroma.sqlite3  #Chroma vector database
+    |   |   
+    |   \---cff0a234-a16f-4e4b-87af-8fb68c19caa9
+    |           data_level0.bin
+    |           header.bin
+    |           index_metadata.pickle
+    |           length.bin
+    |           link_lists.bin
+    |           
+    \---__pycache__
+            chat_pdf.cpython-311.pyc
+            
+```
 
 
 # 1.Pull required models from ollama
