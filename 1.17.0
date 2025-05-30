@@ -1,0 +1,8 @@
+Collecting onnx
+  Using cached onnx-1.18.0-cp311-cp311-win_amd64.whl.metadata (7.0 kB)
+Requirement already satisfied: numpy>=1.22 in c:\users\msi-pc\anaconda3\envs\rag_chat\lib\site-packages (from onnx) (1.26.4)
+Requirement already satisfied: protobuf>=4.25.1 in c:\users\msi-pc\anaconda3\envs\rag_chat\lib\site-packages (from onnx) (5.29.5)
+Requirement already satisfied: typing_extensions>=4.7.1 in c:\users\msi-pc\anaconda3\envs\rag_chat\lib\site-packages (from onnx) (4.13.2)
+Using cached onnx-1.18.0-cp311-cp311-win_amd64.whl (15.8 MB)
+Installing collected packages: onnx
+Successfully installed onnx-1.18.0
